@@ -1,7 +1,7 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
-  plugins: [react()],
-  base: '/https://github.com/faiz1004/Interactive-Quiz-Application/', // Replace with your actual repo name
-});
+  plugins: [
+    tailwindcss(),
+  ],
+})
